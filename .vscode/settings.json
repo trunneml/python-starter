@@ -1,0 +1,12 @@
+{
+    "black-formatter.importStrategy": "fromEnvironment",
+    "isort.importStrategy": "fromEnvironment",
+    "isort.check": true,
+    "python.linting.mypyArgs": [],
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "flake8.importStrategy": "fromEnvironment"
+}
