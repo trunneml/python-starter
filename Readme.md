@@ -12,6 +12,7 @@ This project is an example setup how to use VSCode for python development using 
 * Refactoring Support
 * Security Linting
 * Code Formating
+* Test Runner
 
 ## Usage
 
@@ -52,16 +53,17 @@ This project is an example setup how to use VSCode for python development using 
 
 ### Feature Tool Matrix
 
-| Feature          | Tool    | CLI | VSCode | Note               |
-|------------------|---------|:---:|:------:|--------------------|
-| Error Linter     | Pylance | no  |  yes   |                    |
-| Error Linter     | Flake8  | yes |  yes   |                    |
-| Style Linter     | Pylance | no  |  yes   |                    |
-| Style Linter     | Flake8  | yes |  yes   |                    |
-| Type Checking    | Pyright | no  |  yes   | Part of Pylance    |
-| Refactoring      | Pylance | no  |  yes   |                    |
-| Code Formating   | isort   | yes |  yes   | With black profile |
-| Code Formating   | Black   | yes |  yes   |                    |
+| Feature        | Tool    | CLI | VSCode | Note                                           |
+|----------------|---------|:---:|:------:|------------------------------------------------|
+| Error Linter   | Pylance | no  |  yes   |                                                |
+| Error Linter   | Flake8  | yes |  yes   |                                                |
+| Style Linter   | Pylance | no  |  yes   |                                                |
+| Style Linter   | Flake8  | yes |  yes   |                                                |
+| Type Checking  | Pyright | no  |  yes   | Part of Pylance                                |
+| Refactoring    | Pylance | no  |  yes   |                                                |
+| Code Formating | isort   | yes |  yes   | With black profile                             |
+| Code Formating | Black   | yes |  yes   |                                                |
+| Test Runner    | Python  |     |  yes   | VSCode Python plugin has a buildin test runner |
 
 ### Pylance a microsoft language server
 
